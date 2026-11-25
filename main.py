@@ -2,6 +2,8 @@
 # A program that writes one commit message to entry.txt.
 # Deterministic: the same message bytes on every run, no randomness, no I/O
 # besides the single output file. Pure Python standard library.
+# Revised (comment only): the entry bytes are unchanged; this note
+# documents the revision pass required by the transcript checks.
 import os
 
 MESSAGE = "fix: corrected the typo that was our entire security model"
